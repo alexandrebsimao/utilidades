@@ -1,0 +1,20 @@
+.paralelogramo{
+    width: 250px;
+    height: 150px;
+    -webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    -ms-transform: skew(15deg);
+    -o-transform: skew(15deg);
+    transform: skew(15deg);
+    margin-left: -30px;
+    border: 1px solid #000;
+
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+
+.paralelogramo:hover{
+	background: blue; 
+}
